@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "btree-core", "btree-core\btree-core.csproj", "{53A2A17B-2201-485D-934D-8BB80214D037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "btree-test", "btree-test\btree-test.csproj", "{4DCD7A22-2BAC-4A17-B340-19035059DA22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53A2A17B-2201-485D-934D-8BB80214D037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A2A17B-2201-485D-934D-8BB80214D037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A2A17B-2201-485D-934D-8BB80214D037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A2A17B-2201-485D-934D-8BB80214D037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DCD7A22-2BAC-4A17-B340-19035059DA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCD7A22-2BAC-4A17-B340-19035059DA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCD7A22-2BAC-4A17-B340-19035059DA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCD7A22-2BAC-4A17-B340-19035059DA22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {032F14A4-9B3A-4C5A-84CA-E99EC536503F}
+	EndGlobalSection
+EndGlobal
