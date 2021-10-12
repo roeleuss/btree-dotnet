@@ -14,13 +14,20 @@ namespace ReeX.Btree.Test
         }
 
         [Theory]
-        [InlineData(20)]
-        public void GivenFirstValueAdded_ThenValueNeedsContainInTree(int value)
+        [InlineData(200)]
+        [InlineData(200, 300)]
+        [InlineData(200, 100)]
+        [InlineData(200, 300, 400)]
+        [InlineData(200, 300, 400, 500, 600)]
+        [InlineData(200, 300, 400, 500, 600, 450, 550)]
+        public void GivenAddedValues_ThenValuesNeedContainAtTree(params int[] values)
         {
             BinaryTree tree = new BinaryTree();
-            tree.Add(value);
-            Assert.True(tree.Contains(value));
-            Assert.Equal(1, tree.Count());
+            foreach(int value in values) 
+                tree.Add(value);
+            foreach (int value in values) 
+                Assert.True(tree.Contains(value), $"Not Found {value}");
+            Assert.Equal(values.Length, tree.Count());
         }
     }
 }

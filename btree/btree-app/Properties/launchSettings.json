@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "btree-app": {
+      "commandName": "Project",
+      "commandLineArgs": "1000000"
+    }
+  }
+}
